@@ -5,11 +5,11 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "betterbrightnesssliderrespawn.refmap.json",
   "mixins": [
-    "SliderControlMixin"
   ],
   "client": [
     "LightTextureMixin",
-    "OptionInstanceMixin"
+    "OptionInstanceMixin",
+    "IntegerOptionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
